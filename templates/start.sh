@@ -18,7 +18,7 @@ then
 fi
 if [ -z "$emulator_opts" ]
 then
-  emulator_opts="-screen multi-touch -no-boot-anim -noaudio -nojni -wipe-data -netfast -verbose -camera-back none -camera-front none -skip-adb-auth"
+  emulator_opts="-screen multi-touch -no-boot-anim -noaudio -nojni -wipe-data -netspeed full -verbose -camera-back none -camera-front none -skip-adb-auth"
 fi
 
 # Detect ip and forward ADB ports outside to outside interface
